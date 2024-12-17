@@ -1,4 +1,4 @@
-package com.matheus.juan.nearby.ui.components.category
+package com.matheus.juan.nearby.ui.component.category
 
 import androidx.annotation.DrawableRes
 import com.matheus.juan.nearby.R

@@ -1,4 +1,4 @@
-package com.matheus.juan.nearby.ui.components.market
+package com.matheus.juan.nearby.ui.component.market
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background

@@ -1,4 +1,4 @@
-package com.matheus.juan.nearby.ui.components.market
+package com.matheus.juan.nearby.ui.component.market
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.lazy.LazyColumn

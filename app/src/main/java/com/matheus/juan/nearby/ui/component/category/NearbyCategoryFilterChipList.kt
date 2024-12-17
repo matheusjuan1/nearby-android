@@ -1,4 +1,4 @@
-package com.matheus.juan.nearby.ui.components.category
+package com.matheus.juan.nearby.ui.component.category
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
