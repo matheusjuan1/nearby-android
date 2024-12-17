@@ -27,7 +27,7 @@ fun NearbyMarketDetailsInfos(
 ) {
     Column(modifier = modifier, verticalArrangement = Arrangement.spacedBy(16.dp)) {
         Text(
-            text = stringResource(R.string.informacoes),
+            text = stringResource(R.string.information),
             style = Typography.headlineSmall,
             color = Gray400
         )
@@ -37,10 +37,10 @@ fun NearbyMarketDetailsInfos(
                     modifier = Modifier.size(16.dp),
                     painter = painterResource(id = R.drawable.ic_ticket),
                     tint = Gray500,
-                    contentDescription = stringResource(R.string.icone_cupons)
+                    contentDescription = stringResource(R.string.coupon_icon)
                 )
                 Text(
-                    text = stringResource(R.string.cupons_disponiveis, market.coupons),
+                    text = stringResource(R.string._s_coupons_available, market.coupons),
                     style = Typography.labelMedium,
                     color = Gray500
                 )
@@ -50,7 +50,7 @@ fun NearbyMarketDetailsInfos(
                     modifier = Modifier.size(16.dp),
                     painter = painterResource(id = R.drawable.ic_map_pin),
                     tint = Gray500,
-                    contentDescription = stringResource(R.string.icone_endereco)
+                    contentDescription = stringResource(R.string.address_icon)
                 )
                 Text(
                     text = market.address,
@@ -63,7 +63,7 @@ fun NearbyMarketDetailsInfos(
                     modifier = Modifier.size(16.dp),
                     painter = painterResource(id = R.drawable.ic_phone),
                     tint = Gray500,
-                    contentDescription = stringResource(R.string.Icone_telefone)
+                    contentDescription = stringResource(R.string.phone_icon)
                 )
                 Text(
                     text = market.phone,

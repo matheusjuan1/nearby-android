@@ -42,7 +42,7 @@ fun NearbyCategoryFilterChip(
                     modifier = Modifier.size(16.dp),
                     painter = painterResource(id = it),
                     tint = if (isSelected) Color.White else Gray400,
-                    contentDescription = stringResource(R.string.icone_de_filtro_de_categoria)
+                    contentDescription = stringResource(R.string.category_filter_icon)
                 )
             }
         },

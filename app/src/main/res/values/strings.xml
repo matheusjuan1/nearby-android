@@ -1,18 +1,22 @@
 <resources>
     <string name="app_name">Nearby</string>
-    <string name="icone_do_botao">Ícone do Botão</string>
-    <string name="confirmar">Confirmar</string>
-    <string name="icone_de_filtro_de_categoria">Ícone de Filtro de Categoria</string>
-    <string name="imagem_do_estabelecimento">Imagem do Estabelecimento</string>
-    <string name="icone_de_cupom">Ícone de Cupom</string>
-    <string name="cupons_disponiveis">%1$s cupons disponíveis</string>
-    <string name="explore_locais_perto_voce">Explore locais perto de você.</string>
-    <string name="informacoes">Informações</string>
-    <string name="icone_cupons">Ícone Cupons</string>
-    <string name="icone_endereco">Ícone Endereço</string>
-    <string name="Icone_telefone">Ícone Telefone</string>
-    <string name="regulamento">Regulamento</string>
-    <string name="utilize_esse_cupom">Utilize esse cupom</string>
-    <string name="imagem_logo">Imagem logo</string>
-    <string name="imagem_background">Imagem Background</string>
+    <string name="button_icon">Ícone do Botão</string>
+    <string name="confirm">Confirmar</string>
+    <string name="category_filter_icon">Ícone de Filtro de Categoria</string>
+    <string name="market_image">Imagem do Estabelecimento</string>
+    <string name="_s_coupons_available">%1$s cupons disponíveis</string>
+    <string name="explore_places_near_you">Explore locais perto de você.</string>
+    <string name="information">Informações</string>
+    <string name="coupon_icon">Ícone Cupom</string>
+    <string name="address_icon">Ícone Endereço</string>
+    <string name="phone_icon">Ícone Telefone</string>
+    <string name="regulation">Regulamento</string>
+    <string name="use_this_coupon">Utilize esse cupom</string>
+    <string name="logo_image">Imagem logo</string>
+    <string name="background_image">Imagem Background</string>
+    <string name="nearby_app_logo">Nearby App Logo</string>
+    <string name="welcome_nearby">Boas vindas ao Nearby</string>
+    <string name="welcome_description">Tenha cupons de vantagens para usar em seus estabelecimentos favoritos.</string>
+    <string name="see_how_it_works">Veja como funciona:</string>
+    <string name="how_it_works_icon">Ícone Como Funciona</string>
 </resources>

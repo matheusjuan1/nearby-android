@@ -69,7 +69,7 @@ fun NearbyMarketCard(
                     .aspectRatio(ratio = 1f, matchHeightConstraintsFirst = true),
                 contentScale = ContentScale.Crop,
                 painter = painterResource(R.drawable.img_burger),
-                contentDescription = stringResource(R.string.imagem_do_estabelecimento)
+                contentDescription = stringResource(R.string.market_image)
             )
             Column(
 
@@ -92,10 +92,10 @@ fun NearbyMarketCard(
                         modifier = Modifier.size(24.dp),
                         tint = if (market.coupons > 0) RedBase else Gray400,
                         painter = painterResource(id = R.drawable.ic_ticket),
-                        contentDescription = stringResource(R.string.icone_de_cupom)
+                        contentDescription = stringResource(R.string.coupon_icon)
                     )
                     Text(
-                        text = stringResource(R.string.cupons_disponiveis, market.coupons),
+                        text = stringResource(R.string._s_coupons_available, market.coupons),
                         color = Gray400,
                         style = Typography.bodyMedium.copy(fontSize = 12.sp)
                     )

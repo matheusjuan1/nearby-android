@@ -43,7 +43,7 @@ fun NearbyButton(
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             iconRes?.let {
-                Icon(painter = painterResource(id = iconRes), contentDescription = stringResource(R.string.icone_do_botao))
+                Icon(painter = painterResource(id = iconRes), contentDescription = stringResource(R.string.button_icon))
             }
             text?.let { Text(text = text.uppercase(), style = Typography.labelLarge) }
         }
@@ -57,7 +57,7 @@ fun NearbyButton(
 private fun NearbyButtonPreview() {
     NearbyButton(
         modifier = Modifier.fillMaxWidth(),
-        text = stringResource(R.string.confirmar),
+        text = stringResource(R.string.confirm),
         iconRes = R.drawable.ic_scan
     ) { }
 }
@@ -67,7 +67,7 @@ private fun NearbyButtonPreview() {
 private fun NearbyButtonNoIconPreview() {
     NearbyButton(
         modifier = Modifier.fillMaxWidth(),
-        text = stringResource(R.string.confirmar),
+        text = stringResource(R.string.confirm),
     ) { }
 }
 

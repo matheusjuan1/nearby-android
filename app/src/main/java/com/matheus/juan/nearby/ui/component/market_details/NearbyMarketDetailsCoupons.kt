@@ -32,7 +32,7 @@ fun NearbyMarketDetailsCoupons(modifier: Modifier = Modifier, coupons: List<Stri
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
         Text(
-            text = stringResource(R.string.utilize_esse_cupom),
+            text = stringResource(R.string.use_this_coupon),
             style = Typography.headlineSmall,
             color = Gray400
         )
@@ -51,7 +51,7 @@ fun NearbyMarketDetailsCoupons(modifier: Modifier = Modifier, coupons: List<Stri
                     modifier = Modifier.size(24.dp),
                     painter = painterResource(R.drawable.ic_ticket),
                     tint = GreenBase,
-                    contentDescription = stringResource(R.string.icone_cupons)
+                    contentDescription = stringResource(R.string.coupon_icon)
                 )
                 Text(
                     text = coupon, style = Typography.headlineSmall

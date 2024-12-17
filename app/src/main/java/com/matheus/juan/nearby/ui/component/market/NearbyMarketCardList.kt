@@ -26,7 +26,7 @@ fun NearbyMarketCardList(
     ) {
         item {
             Text(
-                text = stringResource(R.string.explore_locais_perto_voce),
+                text = stringResource(R.string.explore_places_near_you),
                 style = Typography.bodyLarge
             )
         }

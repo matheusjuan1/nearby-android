@@ -25,7 +25,7 @@ fun NearbyMarketDetailsRules(modifier: Modifier = Modifier, rules: List<CouponRu
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
         Text(
-            text = stringResource(R.string.regulamento),
+            text = stringResource(R.string.regulation),
             style = Typography.headlineSmall,
             color = Gray400
         )

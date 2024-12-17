@@ -23,12 +23,12 @@ fun SplashScreen(modifier: Modifier = Modifier) {
         Image(
             modifier = Modifier.align(Alignment.Center),
             painter = painterResource(id = R.drawable.img_logo_logo_logo_text),
-            contentDescription = stringResource(R.string.imagem_logo)
+            contentDescription = stringResource(R.string.logo_image)
         )
         Image(
             modifier = Modifier.align(Alignment.BottomCenter),
             painter = painterResource(id = R.drawable.bg_splash_screen),
-            contentDescription = stringResource(R.string.imagem_background)
+            contentDescription = stringResource(R.string.background_image)
         )
     }
 }
