@@ -13,4 +13,6 @@
     <string name="Icone_telefone">Ícone Telefone</string>
     <string name="regulamento">Regulamento</string>
     <string name="utilize_esse_cupom">Utilize esse cupom</string>
+    <string name="imagem_logo">Imagem logo</string>
+    <string name="imagem_background">Imagem Background</string>
 </resources>
