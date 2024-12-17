@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Nearby</string>
+    <string name="icone_do_botao">Ícone do Botão</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="icone_de_filtro_de_categoria">Ícone de Filtro de Categoria</string>
+    <string name="imagem_do_estabelecimento">Imagem do Estabelecimento</string>
+    <string name="icone_de_cupom">Ícone de Cupom</string>
+    <string name="cupons_disponiveis">%1$s cupons disponíveis</string>
+    <string name="explore_locais_perto_voce">Explore locais perto de você.</string>
+    <string name="informacoes">Informações</string>
+    <string name="icone_cupons">Ícone Cupons</string>
+    <string name="icone_endereco">Ícone Endereço</string>
+    <string name="Icone_telefone">Ícone Telefone</string>
+    <string name="regulamento">Regulamento</string>
+    <string name="utilize_esse_cupom">Utilize esse cupom</string>
+</resources>
