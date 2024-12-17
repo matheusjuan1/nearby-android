@@ -45,7 +45,7 @@ fun NearbyButton(
             iconRes?.let {
                 Icon(painter = painterResource(id = iconRes), contentDescription = stringResource(R.string.button_icon))
             }
-            text?.let { Text(text = text.uppercase(), style = Typography.labelLarge) }
+            text?.let { Text(text = text, style = Typography.labelLarge) }
         }
 
 

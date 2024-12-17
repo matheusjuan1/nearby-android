@@ -19,4 +19,11 @@
     <string name="welcome_description">Tenha cupons de vantagens para usar em seus estabelecimentos favoritos.</string>
     <string name="see_how_it_works">Veja como funciona:</string>
     <string name="how_it_works_icon">Ícone Como Funciona</string>
+    <string name="find_markets">Encontre estabelecimentos</string>
+    <string name="find_markets_description">Veja locais perto de você que são parceiros Nearby</string>
+    <string name="activate_coupon_qrcode">Ative o cupom com QR Code</string>
+    <string name="activate_coupon_qrcode_description">Escaneie o código no estabelecimento para usar o benefício</string>
+    <string name="guarantee_advantages">Garanta vantagens perto de você</string>
+    <string name="guarantee_advantages_description">Ative cupons onde estiver, em diferentes tipos de estabelecimentos</string>
+    <string name="start">Começar</string>
 </resources>
