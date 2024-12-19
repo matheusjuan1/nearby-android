@@ -64,7 +64,7 @@ fun NearbyMarketCard(
             Image(
                 modifier = Modifier
                     .clip(RoundedCornerShape(12.dp))
-                    .fillMaxWidth(0.3f)
+                    .fillMaxWidth(0.3f) // Largura de 30% do componente
                     .height(IntrinsicSize.Min)
                     .aspectRatio(ratio = 1f, matchHeightConstraintsFirst = true),
                 contentScale = ContentScale.Crop,
