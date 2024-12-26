@@ -30,7 +30,7 @@ import com.matheus.juan.nearby.ui.theme.RedBase
 import com.matheus.juan.nearby.ui.theme.Typography
 
 @Composable
-fun WelcomeScreen(modifier: Modifier = Modifier) {
+fun WelcomeScreen(modifier: Modifier = Modifier, onNavigateToHome: () -> Unit) {
     Column(
         modifier = modifier
             .background(Color.White)
@@ -44,7 +44,7 @@ fun WelcomeScreen(modifier: Modifier = Modifier) {
         NearbyButton(
             modifier = Modifier.fillMaxWidth(),
             text = stringResource(R.string.start),
-            onClick = {}
+            onClick = onNavigateToHome
         )
     }
 }
@@ -124,5 +124,5 @@ fun WelcomeHowItWorksTip(
 @Preview
 @Composable
 private fun WelcomeScreenPreview() {
-    WelcomeScreen()
+    WelcomeScreen(onNavigateToHome = {})
 }
