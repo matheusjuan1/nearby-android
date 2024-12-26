@@ -107,7 +107,7 @@ fun NearbyMarketCard(
 
 @Preview
 @Composable
-private fun NearbyMarketPreview() {
+private fun NearbyMarketCardPreview() {
     NearbyMarketCard(
         modifier = Modifier.fillMaxWidth(),
         market = mockMarkets.first(),
