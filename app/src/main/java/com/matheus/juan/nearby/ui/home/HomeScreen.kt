@@ -1,4 +1,4 @@
-package com.matheus.juan.nearby.ui.screen
+package com.matheus.juan.nearby.ui.home
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
