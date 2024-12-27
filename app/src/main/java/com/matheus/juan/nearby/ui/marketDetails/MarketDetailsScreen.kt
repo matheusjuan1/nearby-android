@@ -1,4 +1,4 @@
-package com.matheus.juan.nearby.ui.screen
+package com.matheus.juan.nearby.ui.marketDetails
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -30,7 +30,6 @@ import com.matheus.juan.nearby.data.model.mock.mockMarkets
 import com.matheus.juan.nearby.ui.component.button.NearbyButton
 import com.matheus.juan.nearby.ui.component.market_details.NearbyMarketDetailsCoupons
 import com.matheus.juan.nearby.ui.component.market_details.NearbyMarketDetailsInfos
-import com.matheus.juan.nearby.ui.component.market_details.NearbyMarketDetailsRules
 import com.matheus.juan.nearby.ui.theme.Typography
 
 @Composable

@@ -9,8 +9,8 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
 import com.matheus.juan.nearby.data.model.Market
-import com.matheus.juan.nearby.ui.screen.HomeScreen
-import com.matheus.juan.nearby.ui.screen.MarketDetailsScreen
+import com.matheus.juan.nearby.ui.home.HomeScreen
+import com.matheus.juan.nearby.ui.marketDetails.MarketDetailsScreen
 import com.matheus.juan.nearby.ui.screen.SplashScreen
 import com.matheus.juan.nearby.ui.screen.WelcomeScreen
 import com.matheus.juan.nearby.ui.screen.route.Home
