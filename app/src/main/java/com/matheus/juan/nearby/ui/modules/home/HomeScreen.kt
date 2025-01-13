@@ -1,4 +1,4 @@
-package com.matheus.juan.nearby.ui.home
+package com.matheus.juan.nearby.ui.modules.home
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -14,7 +14,6 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalConfiguration
@@ -145,7 +144,7 @@ fun NearbyGoogleMap(modifier: Modifier = Modifier, uiState: HomeUiState) {
 
         if (!uiState.markets.isNullOrEmpty()) {
             context.getDrawable(R.drawable.img_pin)?.let {
-                uiState.marketLocation?.toImmutableList()
+                uiState.marketLocations?.toImmutableList()
                     ?.forEachIndexed { index, location ->
                         Marker(
                             state = MarkerState(position = location),
@@ -161,7 +160,7 @@ fun NearbyGoogleMap(modifier: Modifier = Modifier, uiState: HomeUiState) {
                         )
                     }.also {
                         coroutineScope.launch {
-                            val allMarks = uiState.marketLocation?.plus(
+                            val allMarks = uiState.marketLocations?.plus(
                                 mockUserLocation
                             )
 

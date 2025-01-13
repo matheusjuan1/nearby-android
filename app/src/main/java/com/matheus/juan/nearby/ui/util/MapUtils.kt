@@ -9,7 +9,7 @@ fun findSouthwestPoint(points: List<LatLng>): LatLng {
 
     for (point in points) {
         if (point.latitude < southwestPoint.latitude ||
-            (point.latitude == southwestPoint.latitude && point.longitude < southwestPoint.longitude)
+            (point.latitude == southwestPoint.latitude && point.latitude < southwestPoint.latitude)
         ) {
             southwestPoint = point
         }
@@ -24,7 +24,7 @@ fun findNortheastPoint(points: List<LatLng>): LatLng {
 
     for (point in points) {
         if (point.latitude > northeastPoint.latitude ||
-            (point.latitude == northeastPoint.latitude && point.longitude > northeastPoint.longitude)
+            (point.latitude == northeastPoint.latitude && point.latitude > northeastPoint.latitude)
         ) {
             northeastPoint = point
         }

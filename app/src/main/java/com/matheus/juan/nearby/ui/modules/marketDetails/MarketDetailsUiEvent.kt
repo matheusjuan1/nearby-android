@@ -1,4 +1,4 @@
-package com.matheus.juan.nearby.ui.marketDetails
+package com.matheus.juan.nearby.ui.modules.marketDetails
 
 sealed class MarketDetailsUiEvent {
 
