@@ -66,7 +66,7 @@ fun HomeScreen(
                 Box(
                     modifier = Modifier
                         .fillMaxSize()
-                        .padding(it)
+                        .padding(bottom = it.calculateBottomPadding().minus(8.dp))
                 ) {
                     GoogleMap(
                         modifier = Modifier.fillMaxSize()
