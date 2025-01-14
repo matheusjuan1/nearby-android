@@ -1,4 +1,4 @@
-package com.matheus.juan.nearby.ui.screen
+package com.matheus.juan.nearby.ui.modules.splash
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background

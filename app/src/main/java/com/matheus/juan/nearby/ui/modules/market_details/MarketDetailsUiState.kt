@@ -1,4 +1,4 @@
-package com.matheus.juan.nearby.ui.marketDetails
+package com.matheus.juan.nearby.ui.modules.market_details
 
 import com.matheus.juan.nearby.data.model.CouponRule
 

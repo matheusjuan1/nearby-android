@@ -1,4 +1,4 @@
-package com.matheus.juan.nearby.ui.home
+package com.matheus.juan.nearby.ui.modules.home
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -48,7 +48,7 @@ class HomeViewModel : ViewModel() {
                     onSuccess = { markets ->
                         currentUiState.copy(
                             markets = markets,
-                            marketLocation = markets.map { market ->
+                            marketLocations = markets.map { market ->
                                 LatLng(market.latitude, market.latitude)
                             }
                         )
@@ -56,7 +56,7 @@ class HomeViewModel : ViewModel() {
                     onFailure = { _ ->
                         currentUiState.copy(
                             markets = emptyList(),
-                            marketLocation = emptyList()
+                            marketLocations = emptyList()
                         )
                     }
                 )

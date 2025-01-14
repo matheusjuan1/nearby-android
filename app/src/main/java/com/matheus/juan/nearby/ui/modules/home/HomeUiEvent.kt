@@ -1,4 +1,4 @@
-package com.matheus.juan.nearby.ui.home
+package com.matheus.juan.nearby.ui.modules.home
 
 sealed class HomeUiEvent {
 

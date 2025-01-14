@@ -1,4 +1,4 @@
-package com.matheus.juan.nearby.ui.marketDetails
+package com.matheus.juan.nearby.ui.modules.market_details
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

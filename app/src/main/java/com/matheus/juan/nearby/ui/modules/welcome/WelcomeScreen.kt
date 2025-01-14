@@ -1,4 +1,4 @@
-package com.matheus.juan.nearby.ui.screen
+package com.matheus.juan.nearby.ui.modules.welcome
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
