@@ -14,7 +14,8 @@ import androidx.navigation.toRoute
 import com.matheus.juan.nearby.data.model.Market
 import com.matheus.juan.nearby.ui.modules.home.HomeScreen
 import com.matheus.juan.nearby.ui.modules.home.HomeViewModel
-import com.matheus.juan.nearby.ui.modules.marketDetails.MarketDetailsScreen
+import com.matheus.juan.nearby.ui.modules.market_details.MarketDetailsScreen
+import com.matheus.juan.nearby.ui.modules.market_details.MarketDetailsViewModel
 import com.matheus.juan.nearby.ui.modules.splash.SplashScreen
 import com.matheus.juan.nearby.ui.modules.welcome.WelcomeScreen
 import com.matheus.juan.nearby.ui.route.Home
@@ -32,6 +33,9 @@ class MainActivity : ComponentActivity() {
 
                 val homeViewModel by viewModels<HomeViewModel>()
                 val homeUiState by homeViewModel.uiState.collectAsStateWithLifecycle()
+
+                val marketDetailsViewModel by viewModels<MarketDetailsViewModel>()
+                val marketDetailsUiState by marketDetailsViewModel.uiState.collectAsStateWithLifecycle()
 
                 NavHost(
                     navController = navController,
@@ -66,6 +70,8 @@ class MainActivity : ComponentActivity() {
                         val selectedMarket = it.toRoute<Market>()
                         MarketDetailsScreen(
                             market = selectedMarket,
+                            uiState = marketDetailsUiState,
+                            onEvent = marketDetailsViewModel::onEvent,
                             onNavigateBack = {
                                 navController.popBackStack()
                             }
