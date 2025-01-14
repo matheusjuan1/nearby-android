@@ -15,10 +15,13 @@ import com.matheus.juan.nearby.data.model.Market
 import com.matheus.juan.nearby.ui.modules.home.HomeScreen
 import com.matheus.juan.nearby.ui.modules.home.HomeViewModel
 import com.matheus.juan.nearby.ui.modules.market_details.MarketDetailsScreen
+import com.matheus.juan.nearby.ui.modules.market_details.MarketDetailsUiEvent
 import com.matheus.juan.nearby.ui.modules.market_details.MarketDetailsViewModel
+import com.matheus.juan.nearby.ui.modules.qrcode_scanner.QRCodeScannerScreen
 import com.matheus.juan.nearby.ui.modules.splash.SplashScreen
 import com.matheus.juan.nearby.ui.modules.welcome.WelcomeScreen
 import com.matheus.juan.nearby.ui.route.Home
+import com.matheus.juan.nearby.ui.route.QRCodeScanner
 import com.matheus.juan.nearby.ui.route.Splash
 import com.matheus.juan.nearby.ui.route.Welcome
 import com.matheus.juan.nearby.ui.theme.NearbyTheme
@@ -74,8 +77,22 @@ class MainActivity : ComponentActivity() {
                             onEvent = marketDetailsViewModel::onEvent,
                             onNavigateBack = {
                                 navController.popBackStack()
+                            },
+                            onNavigateToQRCodeScanner = {
+                                navController.navigate(QRCodeScanner)
                             }
                         )
+                    }
+                    composable<QRCodeScanner> {
+                        QRCodeScannerScreen(onCompletedScan = { qrCodeContent ->
+                            if (qrCodeContent.isNotEmpty())
+                                marketDetailsViewModel.onEvent(
+                                    MarketDetailsUiEvent.OnFetchCoupon(
+                                        qrCodeContent = qrCodeContent
+                                    )
+                                )
+                            navController.popBackStack()
+                        })
                     }
                 }
             }

@@ -40,6 +40,7 @@ fun MarketDetailsScreen(
     uiState: MarketDetailsUiState,
     onEvent: (MarketDetailsUiEvent) -> Unit,
     market: Market,
+    onNavigateToQRCodeScanner: () -> Unit,
     onNavigateBack: () -> Unit
 ) {
     LaunchedEffect(true) {
@@ -97,8 +98,9 @@ fun MarketDetailsScreen(
                                 .padding(vertical = 24.dp)
                         )
                     }
-
-                    NearbyMarketDetailsCoupons(coupons = listOf("ABC12345"))
+                    if (!uiState.coupon.isNullOrEmpty()) {
+                        NearbyMarketDetailsCoupons(coupons = listOf(uiState.coupon))
+                    }
                 }
 
                 NearbyButton(
@@ -107,7 +109,7 @@ fun MarketDetailsScreen(
                         .padding(top = 24.dp),
                     text = stringResource(R.string.read_qr_code),
                     iconRes = R.drawable.ic_qrcode,
-                    onClick = { }
+                    onClick = onNavigateToQRCodeScanner
                 )
             }
         }
@@ -128,6 +130,7 @@ private fun MarketDetailsScreenPreview() {
         market = mockMarkets.first(),
         uiState = MarketDetailsUiState(),
         onEvent = {},
-        onNavigateBack = {}
+        onNavigateBack = {},
+        onNavigateToQRCodeScanner = {}
     )
 }
