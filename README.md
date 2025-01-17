@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo Nearby" src="./app/src/main/res/drawable/ic_nearby_launcher_foreground.xml" />
+  <img alt="Logo Nearby" src="./app/src/main/res/drawable/icon_nearby_app.png" />
 </h1>
 
 # Nearby
