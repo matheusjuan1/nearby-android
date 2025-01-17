@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo Nearby" src="./app/src/main/res/drawable/icon_nearby_app.png" />
+  <img alt="Logo Nearby" height="200px" width="200px" src="./app/src/main/res/drawable/icon_nearby_app.png" />
 </h1>
 
 # Nearby
@@ -7,6 +7,7 @@
 Nearby é um aplicativo mobile Android de clube de benefícios com cupons para utilizar em estabelecimentos próximos a você.
 
 Projeto desenvolvido durante a NLW - Next Level Week oferecida pela [Rocketseat](https://www.rocketseat.com.br/).
+
 
 ## 🛠 Tecnologias
 
@@ -26,4 +27,8 @@ O layout da aplicação está disponível no Figma:
 
 ![Badge](https://img.shields.io/static/v1?label=Acessar%20Layout&message=Figma&color=257f49&style=for-the-badge&link=https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1448070647757721748)
 
+## 📝 Licença
 
+Este projeto esta sobe a licença MIT.
+
+Feito por Matheus Juan. [Entre em contato](https://www.linkedin.com/in/matheus-ferreira-a84046186/)
