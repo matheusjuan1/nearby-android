@@ -29,6 +29,6 @@ O layout da aplicação está disponível no Figma:
 
 ## 📝 Licença
 
-Este projeto esta sobe a licença MIT.
+Este projeto esta sob a licença MIT.
 
 Feito por Matheus Juan. [Entre em contato](https://www.linkedin.com/in/matheus-ferreira-a84046186/)
