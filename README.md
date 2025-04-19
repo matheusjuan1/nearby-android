@@ -25,14 +25,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 O layout da aplicação está disponível no Figma:
 
-![Badge](https://img.shields.io/static/v1?label=Acessar%20Layout&message=Figma&color=257f49&style=for-the-badge&link=https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1448070647757721748)
+[![Badge](https://img.shields.io/static/v1?label=Acessar%20Layout&message=Figma&color=257f49&style=for-the-badge)](https://www.figma.com/community/file/1448070647757721748)
 
 ## 📝 Licença
 
 Este projeto está sob a licença MIT.
 
-Feito por Matheus Juan. [Entre em contato](https://www.linkedin.com/in/matheus-ferreira-a84046186/)
-
+Feito por Matheus Juan. [Entre em contato](https://www.linkedin.com/in/matheusjuan1/)
 <div align="center">
   <img width="60" alt="Image" src="https://github.com/user-attachments/assets/efd1d014-148c-4ae8-8dbd-81850fadf9ba" />
 </div>
